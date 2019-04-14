@@ -1,0 +1,213 @@
+/*==================================================
+
+parts
+==================================================*/
+/*	margin top	*/
+/* line 12, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt1 {
+  margin-top: 1px !important; }
+
+/* line 13, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt3 {
+  margin-top: 3px !important; }
+
+/* line 14, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt4 {
+  margin-top: 4px !important; }
+
+/* line 15, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt5 {
+  margin-top: 5px !important; }
+
+/* line 16, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt8 {
+  margin-top: 8px !important; }
+
+/* line 17, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt10 {
+  margin-top: 10px !important; }
+
+/* line 18, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt12 {
+  margin-top: 12px !important; }
+
+/* line 19, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt15 {
+  margin-top: 15px !important; }
+
+/* line 20, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt16 {
+  margin-top: 16px !important; }
+
+/* line 21, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt20 {
+  margin-top: 20px !important; }
+
+/* line 22, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt24 {
+  margin-top: 24px !important; }
+
+/* line 23, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt25 {
+  margin-top: 25px !important; }
+
+/* line 24, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt28 {
+  margin-top: 28px !important; }
+
+/* line 25, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt30 {
+  margin-top: 30px !important; }
+
+/* line 26, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt32 {
+  margin-top: 32px !important; }
+
+/* line 27, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt34 {
+  margin-top: 34px !important; }
+
+/* line 28, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt36 {
+  margin-top: 36px !important; }
+
+/* line 29, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt40 {
+  margin-top: 40px !important; }
+
+/* line 30, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt42 {
+  margin-top: 42px !important; }
+
+/* line 31, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt44 {
+  margin-top: 44px !important; }
+
+/* line 32, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt48 {
+  margin-top: 48px !important; }
+
+/* line 33, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.mt50 {
+  margin-top: 50px !important; }
+
+/*	float	*/
+/* line 36, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.left {
+  float: left;
+  display: inline; }
+
+/* line 37, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.right {
+  float: right;
+  display: inline; }
+
+/*	figure float	*/
+/* line 40, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.alignleft {
+  float: left;
+  display: inline;
+  margin-right: 20px; }
+
+/* line 41, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.alignright {
+  float: right;
+  display: inline;
+  margin-left: 20px; }
+
+/* line 42, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*	text align	*/
+/* line 45, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+p.center {
+  text-align: center; }
+
+/* line 46, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+p.right {
+  text-align: right; }
+
+/*	clearfix	*/
+/* line 49, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.clear {
+  zoom: 1; }
+
+/* line 50, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+.clear:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+/*==================================================
+
+module
+==================================================*/
+/*	info	*/
+/* line 62, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+#main .info {
+  border-bottom: 1px dotted #CCCCCC;
+  margin: 5px 0 0;
+  padding: 0 0 5px; }
+  /* line 66, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+  #main .info:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0; }
+  /* line 67, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+  #main .info li {
+    background: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left; }
+    /* line 73, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+    #main .info li:before, #main .info li:after {
+      content: none; }
+
+/*	pager	*/
+/* line 80, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+#main .pager {
+  position: relative;
+  overflow: hidden; }
+  /* line 83, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+  #main .pager ul, #main .pager ol {
+    margin: 50px 0 0; }
+    /* line 85, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+    #main .pager ul:after, #main .pager ol:after {
+      clear: both;
+      content: '';
+      display: block;
+      height: 0; }
+    /* line 86, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+    #main .pager ul li, #main .pager ol li {
+      background: none;
+      padding: 0;
+      margin: 0;
+      float: left;
+      display: inline;
+      position: relative; }
+      /* line 93, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+      #main .pager ul li:before, #main .pager ul li:after, #main .pager ol li:before, #main .pager ol li:after {
+        content: none; }
+      /* line 94, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+      #main .pager ul li + li, #main .pager ol li + li {
+        margin-left: 10px; }
+      /* line 95, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+      #main .pager ul li a, #main .pager ul li span, #main .pager ol li a, #main .pager ol li span {
+        border: 1px solid #CCCCCC;
+        color: #CCCCCC;
+        display: block;
+        text-align: center;
+        padding: 5px 10px; }
+      /* line 102, /Users/miu/Desktop/20190414_aboutme/coding/css/shared.scss */
+      #main .pager ul li a:hover,
+      #main .pager ul li span, #main .pager ol li a:hover,
+      #main .pager ol li span {
+        background: #CCCCCC;
+        color: #FFF; }
+
+/*# sourceMappingURL=shared.css.map */

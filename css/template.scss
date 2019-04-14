@@ -1,0 +1,218 @@
+@charset "utf-8";
+@import '_settings';
+
+
+/*
+**
+template style
+**
+** outline
+** header
+** gnav
+** contents
+** topicpath
+** main
+** side
+** pagetop
+** footer
+** 
+**
+*/
+
+
+
+/*==================================================
+
+outline
+==================================================*/
+
+* { box-sizing: border-box; }
+
+/*
+*::selection {
+	background:lighten($color-red,20%);
+	color:#fff;
+}
+*::-moz-selection {
+	background: lighten($color-red,20%);
+	color:#fff;
+}
+*/
+
+.pc {display: inherit;}
+.sp {display: none;}
+body {
+	color:$color-txt;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+}
+.wrap,
+#topicpath ol {
+	@include wrap;
+}
+.clear:after { @include clear; }
+a {
+	transition: all 0.2s;
+	&:hover { transition: all 0.4s; }
+}
+img {
+	@include fluid-img;
+	&[src$=".svg"] { width: 100%; }
+}
+
+
+/*==================================================
+
+header
+==================================================*/
+
+#header {
+}
+
+
+
+
+
+/*==================================================
+
+globalNavigation
+==================================================*/
+
+#globalNavigation {
+}
+
+
+
+/*==================================================
+
+contents
+==================================================*/
+
+#contents {
+}
+
+
+
+/*==================================================
+
+topicpath
+==================================================*/
+
+#topicpath {
+}
+
+
+
+/*==================================================
+
+main
+==================================================*/
+
+#main {
+}
+
+
+/* pagettl */
+#pagettl {
+}
+
+
+/* main style */
+
+.main {
+
+	/* p */
+	p,address {
+	}
+
+
+	/* ul */
+	ul {
+		li {
+			@include first-margin;
+		}
+		&.noicon {
+			li {
+				padding:0;
+				&:before { content:none; }
+			}
+		}
+	}
+	
+	
+	/* ol */
+	ol,ul {
+		counter-reset: number;
+		> li {
+			counter-increment: number;
+			@include first-margin;	
+		}
+	}
+
+
+	/* table */
+	table {
+		width: 100%;
+		th,
+		td {
+		}
+		th {
+		}
+		td {
+			@include first-margin;	
+		}
+	}
+	
+	
+	/* strong */
+	strong {
+	}
+	
+	/* heading */
+	h2,h3,h4,h5 {
+	}
+	h2 {
+	}
+	h3 {
+	}
+	h4 {
+	}
+	h5 {
+	}
+	h6 {
+	}
+}
+
+
+
+/*==================================================
+
+side
+==================================================*/
+
+#side {
+}
+
+
+
+
+/*==================================================
+
+pagetop
+==================================================*/
+
+#pagetop {
+	display: none;
+	position: fixed;
+	z-index: 99;
+}
+
+
+
+/*==================================================
+
+footer
+==================================================*/
+
+#footer {
+}

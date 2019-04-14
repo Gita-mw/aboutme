@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import '_settings';
+
+/*
+**
+page style
+**
+**
+**
+form style
+**
+**
+**
+system style
+**
+**
+**
+*/
+
+
+
+/*==================================================
+
+** common
+==================================================*/
+
+/* floatbox */
+#main {
+	.floatbox {
+		&:after { @include clear; }
+		.txtbox,.photobox {
+			@include first-margin;
+			&.right { float: right; }
+			&.left { float: left; }
+		}
+	}
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.prepare {
+    @include flex;
+    @include flex-jc(center);
+    @include flex-ai(center);
+    width: 100%;
+    height: 100vh;
+    span {
+        color: #333;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+}
+

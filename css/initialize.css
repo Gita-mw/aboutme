@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*==================================================
+
+fonts
+==================================================*/
+/* Default */
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 200; }
+
+/*==================================================
+
+sectioning	
+==================================================*/
+/*	outline	*/
+/* line 59, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+html {
+  font-size: 62.5%;
+  /* 10px */ }
+
+/* line 62, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 100%; }
+
+/* line 69, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "MS PGothic", sans-serif;
+  /*
+	font-family:
+		"游ゴシック Medium",
+		"Yu Gothic Medium",
+		"游ゴシック体",
+		YuGothic,
+		Verdana,
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		Meiryo, Osaka,
+		"MS PGothic",
+		"M+ 1p",
+		sans-serif;	
+	font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"メイリオ",
+		Meiryo, Osaka,
+		"MS PGothic",
+		sans-serif;
+	font-family:
+		YuMincho, 
+		'Yu Mincho',
+		"ヒラギノ明朝 ProN W3",
+		"HiraMinProN-W3",
+		"HG明朝E",
+		"MS PMincho",
+		"MS 明朝",
+		serif;
+    */
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 1.4rem; }
+
+/* line 112, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+p,
+blockquote,
+address,
+small,
+dt,
+dd,
+li,
+th,
+td,
+td,
+span {
+  line-height: 150%; }
+
+/* line 125, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+div {
+  line-height: 100%; }
+
+/*	heading	*/
+/* line 132, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 150%; }
+
+/*==================================================
+
+link	
+==================================================*/
+/* line 154, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer; }
+
+/* line 159, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+a:hover {
+  text-decoration: underline; }
+
+/*==================================================
+
+content	
+==================================================*/
+/*	text	*/
+/* line 173, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+p,
+blockquote {
+  margin: 0; }
+
+/* line 177, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+address {
+  font-style: normal; }
+
+/*	list	*/
+/* line 184, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+ol,
+ul,
+dl,
+dd {
+  margin: 0; }
+
+/* line 190, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+ol,
+ul {
+  padding: 0;
+  list-style: none; }
+
+/*	table	*/
+/* line 199, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+table {
+  border-collapse: collapse; }
+
+/* line 204, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+th,
+td {
+  padding: 0; }
+
+/* line 208, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+th {
+  font-weight: normal; }
+
+/*	embed	*/
+/* line 215, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+img {
+  vertical-align: bottom;
+  border: 0; }
+
+/* line 219, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+figure {
+  margin: 0;
+  padding: 0; }
+
+/*	semantics	*/
+/* line 227, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+ruby,
+rt,
+mark,
+menu {
+  margin: 0;
+  padding: 0; }
+
+/* line 234, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+small {
+  font-size: 100%; }
+
+/* line 237, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+em,
+cite,
+dfn,
+i {
+  font-style: normal; }
+
+/* line 243, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+strong,
+b {
+  font-weight: normal; }
+
+/* line 247, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+ins,
+del {
+  text-decoration: none; }
+
+/* line 251, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+q {
+  quotes: none; }
+
+/* line 254, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+sup,
+sub {
+  vertical-align: baseline; }
+
+/* line 258, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+ruby,
+rt,
+mark {
+  line-height: 100%; }
+
+/* line 263, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+mark {
+  background: none; }
+
+/*==================================================
+
+form
+==================================================*/
+/* line 274, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+form {
+  margin: 0; }
+
+/* line 277, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-size: 1.6rem; }
+
+/* line 287, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+select {
+  line-height: 100%;
+  font-weight: normal; }
+
+/* line 291, /Users/miu/Desktop/20190414_aboutme/coding/css/initialize.scss */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/*# sourceMappingURL=initialize.css.map */

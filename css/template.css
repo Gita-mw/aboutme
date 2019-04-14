@@ -1,0 +1,153 @@
+/*
+**
+template style
+**
+** outline
+** header
+** gnav
+** contents
+** topicpath
+** main
+** side
+** pagetop
+** footer
+** 
+**
+*/
+/*==================================================
+
+outline
+==================================================*/
+/* line 29, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+* {
+  box-sizing: border-box; }
+
+/*
+*::selection {
+	background:lighten($color-red,20%);
+	color:#fff;
+}
+*::-moz-selection {
+	background: lighten($color-red,20%);
+	color:#fff;
+}
+*/
+/* line 42, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+.pc {
+  display: inherit; }
+
+/* line 43, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+.sp {
+  display: none; }
+
+/* line 44, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+body {
+  color: #333;
+  position: relative;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 49, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+.wrap,
+#topicpath ol {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+/* line 53, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+.clear:after {
+  clear: both;
+  content: '';
+  display: block;
+  height: 0; }
+
+/* line 54, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+a {
+  transition: all 0.2s; }
+  /* line 56, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+  a:hover {
+    transition: all 0.4s; }
+
+/* line 58, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+  /* line 60, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+  img[src$=".svg"] {
+    width: 100%; }
+
+/*==================================================
+
+header
+==================================================*/
+/*==================================================
+
+globalNavigation
+==================================================*/
+/*==================================================
+
+contents
+==================================================*/
+/*==================================================
+
+topicpath
+==================================================*/
+/*==================================================
+
+main
+==================================================*/
+/* pagettl */
+/* main style */
+/* line 122, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+.main {
+  /* p */
+  /* ul */
+  /* ol */
+  /* table */
+  /* strong */
+  /* heading */ }
+  /* line 275, /Users/miu/Desktop/20190414_aboutme/coding/css/_settings.scss */
+  .main ul li > :first-child {
+    margin-top: 0; }
+  /* line 135, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+  .main ul.noicon li {
+    padding: 0; }
+    /* line 137, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+    .main ul.noicon li:before {
+      content: none; }
+  /* line 144, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+  .main ol, .main ul {
+    counter-reset: number; }
+    /* line 146, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+    .main ol > li, .main ul > li {
+      counter-increment: number; }
+      /* line 275, /Users/miu/Desktop/20190414_aboutme/coding/css/_settings.scss */
+      .main ol > li > :first-child, .main ul > li > :first-child {
+        margin-top: 0; }
+  /* line 154, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+  .main table {
+    width: 100%; }
+    /* line 275, /Users/miu/Desktop/20190414_aboutme/coding/css/_settings.scss */
+    .main table td > :first-child {
+      margin-top: 0; }
+
+/*==================================================
+
+side
+==================================================*/
+/*==================================================
+
+pagetop
+==================================================*/
+/* line 204, /Users/miu/Desktop/20190414_aboutme/coding/css/template.scss */
+#pagetop {
+  display: none;
+  position: fixed;
+  z-index: 99; }
+
+/*==================================================
+
+footer
+==================================================*/
+
+/*# sourceMappingURL=template.css.map */

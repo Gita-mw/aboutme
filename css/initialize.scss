@@ -1,0 +1,295 @@
+@charset "utf-8";
+@import '_settings';
+
+
+/*==================================================
+
+fonts
+==================================================*/
+
+
+/* Default */
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 200;
+}
+
+
+
+/*==================================================
+
+sectioning	
+==================================================*/
+
+
+/*	outline	*/
+
+html {
+	font-size: 62.5%;/* 10px */
+}
+html,
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	line-height:100%;
+}
+body {
+	font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"メイリオ",
+		Meiryo, Osaka,
+		"MS PGothic",
+		sans-serif;
+    /*
+	font-family:
+		"游ゴシック Medium",
+		"Yu Gothic Medium",
+		"游ゴシック体",
+		YuGothic,
+		Verdana,
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		Meiryo, Osaka,
+		"MS PGothic",
+		"M+ 1p",
+		sans-serif;	
+	font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"メイリオ",
+		Meiryo, Osaka,
+		"MS PGothic",
+		sans-serif;
+	font-family:
+		YuMincho, 
+		'Yu Mincho',
+		"ヒラギノ明朝 ProN W3",
+		"HiraMinProN-W3",
+		"HG明朝E",
+		"MS PMincho",
+		"MS 明朝",
+		serif;
+    */
+	font-weight: 400;
+	font-size:14px;
+	font-size:1.4rem;
+}
+
+p,
+blockquote,
+address,
+small,
+dt,
+dd,
+li,
+th,
+td,
+td,
+span {
+	line-height:150%;
+}
+div {
+	line-height:100%;
+}
+
+
+/*	heading	*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	font-weight:normal;
+	font-size:100%;
+	line-height:150%;
+}
+
+
+
+/*==================================================
+
+link	
+==================================================*/
+
+
+a {
+	color:inherit;
+	text-decoration:inherit;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+
+
+/*==================================================
+
+content	
+==================================================*/
+
+
+/*	text	*/
+
+p,
+blockquote {
+	margin:0;
+}
+address {
+	font-style:normal;
+}
+
+
+/*	list	*/
+
+ol,
+ul,
+dl,
+dd {
+	margin:0;
+}
+ol,
+ul {
+	padding:0;
+	list-style:none;
+}
+
+
+/*	table	*/
+
+table {
+	border-collapse:collapse;
+}
+caption {
+}
+th,
+td {
+	padding:0;
+}
+th {
+	font-weight:normal;
+}
+
+
+/*	embed	*/
+
+img {
+	vertical-align:bottom;
+	border:0;
+}
+figure {
+	margin:0;
+	padding:0;
+}
+
+
+/*	semantics	*/
+
+ruby,
+rt,
+mark,
+menu {
+	margin:0;
+	padding:0;
+}
+small {
+	font-size:100%;
+}
+em,
+cite,
+dfn,
+i {
+	font-style:normal;
+}
+strong,
+b {
+	font-weight:normal;
+}
+ins,
+del {
+	text-decoration:none;
+}
+q {
+	quotes:none;
+}
+sup,
+sub {
+	vertical-align:baseline;
+}
+ruby,
+rt,
+mark {
+	line-height:100%;
+}
+mark {
+	background:none;
+}
+
+
+
+/*==================================================
+
+form
+==================================================*/
+
+form {
+	margin:0;
+}
+input,
+select,
+textarea,
+button {
+	margin:0;
+	padding:0;
+	font-family:inherit;
+	font-size:100%;
+	font-size: 1.6rem;
+}
+select {
+	line-height:100%;
+	font-weight:normal;
+}
+fieldset {
+	margin:0;
+	padding:0;
+	border:0;
+}
